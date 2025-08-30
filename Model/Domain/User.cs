@@ -12,7 +12,7 @@ namespace BookingSystemApi.Model.Domain
         public string Email { get; set; }
         [Required]
         public string Password { get; set; }
-        public Roles Roles { get; set; }
+        public Roles? Roles { get; set; }
         public Guid RolesId { get; set; } 
     }
 }
